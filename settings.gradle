@@ -1,0 +1,3 @@
+include ':LeetCode'
+include ':app'
+rootProject.name = "KCalgorithm"
