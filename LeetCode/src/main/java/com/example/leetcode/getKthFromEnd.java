@@ -13,6 +13,7 @@ public class getKthFromEnd {
          *先让快指针走到第k个节点位置，然后让快慢指针一起走，当快指针走到链表的最后一个节点时，慢指针正好指向倒数第k个节点
          *输出慢指针节点：正好为倒数第K个
          */
+        // 链接：https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/
         ListNode frontNode = head, behindNode = head;
         while (frontNode != null && k > 0) {
             frontNode = frontNode.next;
