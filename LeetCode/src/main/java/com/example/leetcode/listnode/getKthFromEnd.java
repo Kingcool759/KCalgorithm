@@ -1,4 +1,4 @@
-package com.example.leetcode;
+package com.example.leetcode.listnode;
 
 /**
  * @data on 3/28/21 9:52 PM
@@ -27,13 +27,3 @@ public class getKthFromEnd {
     }
 }
 
-/**
- * 链表节点结构(已知)
- */
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-    }
-}

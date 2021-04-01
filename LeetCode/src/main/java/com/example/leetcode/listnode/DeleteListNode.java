@@ -1,10 +1,12 @@
-package com.example.leetcode;
+package com.example.leetcode.listnode;
 
 /**
  * @data on 3/29/21 11:24 PM
  * @auther KC
  * @describe 删除链表节点
  */
+
+import com.example.leetcode.listnode.ListNode;
 
 /**
  * Definition for singly-linked list.
