@@ -13,8 +13,8 @@ public class LRUCacheMain {
     //用于验证测试用例
     public static void main(String[] args) {
         //capacity:int 容量
-//        LRUCache cache = new LRUCache( 2 /* 缓存容量 */ );//第一种解法
-        LRUCache2 cache = new LRUCache2( 2 /* 缓存容量 */ );//第二种解法
+        LRUCache cache = new LRUCache( 2 /* 缓存容量 */ );//第一种解法
+//        LRUCache2 cache = new LRUCache2( 2 /* 缓存容量 */ );//第二种解法
         cache.put(1, 1);
         cache.put(2, 2);
         System.out.println(cache.get(1));       // 返回  1
@@ -42,7 +42,7 @@ public class LRUCacheMain {
  */
 class LRUCache {
 
-    int capacity;
+    int capacity; //Map容量
     Map<Integer,Integer> map;
 
     public LRUCache(int capacity) {
@@ -69,6 +69,8 @@ class LRUCache {
         map.put(key,value);
         //超出容量-capacity
         if (map.size() > capacity){
+            //map.entrySet()对Entry(key-value)进行遍历
+            //iterator()进行迭代，到最后一个，移除它。
             map.remove(map.entrySet().iterator().next().getKey()); //map.entrySet()对key-value进行遍历
         }
     }
