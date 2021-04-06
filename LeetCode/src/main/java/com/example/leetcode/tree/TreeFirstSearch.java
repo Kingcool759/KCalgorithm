@@ -14,6 +14,7 @@ public class TreeFirstSearch {
  * 深度优先搜索
  * 实现思路：利用栈，先将右子树压栈再将左子树压栈
  * 只有伪代码:C++
+ * 链接：https://www.cnblogs.com/zhangbaochong/p/5492877.html
  */
 //class DFSFirstSearch(TreeNode root){
 //    Stack<TreeNode> nodestack;
