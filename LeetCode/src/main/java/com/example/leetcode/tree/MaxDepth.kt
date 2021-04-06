@@ -1,7 +1,5 @@
 package com.example.leetcode.tree
 
-import javax.swing.tree.TreeNode
-
 /**
  * @data on 3/30/21 9:47 AM
  * @auther KC
@@ -23,21 +21,18 @@ class MaxDepth {
         return traverse(0, root)
     }
 
-    fun traverse(depth: Int, root: TreeNode?): Int {
+    //traverse-贯穿
+    private fun traverse(depth: Int, root: TreeNode?): Int {
         if (root == null) {
             return depth
         }
         val newDepth = depth + 1
         val left = traverse(newDepth, root.left)
         val right = traverse(newDepth, root.right)
-        if (left > right) {
-            return left
+        return if (left > right) {
+            left
         } else {
-            return right
+            right
         }
-    }
-    class TreeNode(var `val`: Int) {
-        var left: TreeNode? = null
-        var right: TreeNode? = null
     }
 }
