@@ -1,4 +1,4 @@
-package com.example.leetcode;
+package com.example.leetcode.number;
 
 /**
  * @data on 3/29/21 11:08 PM
