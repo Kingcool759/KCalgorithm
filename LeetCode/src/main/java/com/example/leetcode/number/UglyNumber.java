@@ -6,13 +6,13 @@ package com.example.leetcode.number;
  * @describe 丑数
  */
 public class UglyNumber {
+    //* 定义：把只包含质因子为2、3和5的数称为丑数。例如，前十个丑数为：1，2，3，4，5，6，8，9，10，12。
     /**
+     * 【题目一：】
      * 求第n个丑数
-     * 定义：把只包含质因子为2、3和5的数称为丑数。例如，前十个丑数为：1，2，3，4，5，6，8，9，10，12。
      * @param n
      * @return int
      */
-    // 返回第n个丑数,丑数是只含2,3,5的因数
     public int nthUglyNumber(int n) {
         int indexA = 0, indexB = 0, indexC = 0;
         int[] dp = new int[n];
@@ -37,5 +37,23 @@ public class UglyNumber {
             }
         }
         return dp[n - 1];
+    }
+
+
+    /**
+     * 【题目二：】
+     * 判断一个数是否为丑数
+     */
+    public boolean isUgly(int n){
+        if (n <= 0) {
+            return false;
+        }
+        int[] factors = {2, 3, 5}; // 丑数定义中的质因子
+        for (int factor : factors) {
+            while (n % factor == 0) {
+                n /= factor;
+            }
+        }
+        return n == 1;
     }
 }
