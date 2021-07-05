@@ -5,14 +5,9 @@ package com.example.leetcode.sort;
  * @auther
  * @describe 手写冒泡排序
  */
-
-import java.util.Arrays;
-
-/**
- * 思路：
- * 重复走访待排序序列，挨个比较相邻两个元素，如果顺序有错(A>B)就交换两者的顺序(A<B)。
- */
 public class BubbleSort {
+    //冒泡排序
+    //思路：重复走访待排序序列，挨个比较相邻两个元素，如果顺序有错(A>B)就交换两者的顺序(A<B)。
     public int[] bubbleSort(int[] arr) {
         int temp = 0;
         boolean swap;
@@ -31,9 +26,5 @@ public class BubbleSort {
             }
         }
         return arr;
-    }
-    public static void main(String[] args){
-        BubbleSort bs = new BubbleSort();
-        System.out.println(Arrays.toString(bs.bubbleSort(new int[]{4, 3, 2, 1})));
     }
 }

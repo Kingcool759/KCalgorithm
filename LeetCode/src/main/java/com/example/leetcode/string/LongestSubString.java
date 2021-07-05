@@ -49,9 +49,4 @@ public class LongestSubString {
         }
         return ans;
     }
-
-    public static void main(String[] args){
-        LongestSubString lss = new LongestSubString();
-        System.out.println(lss.lengthOfLongestSubstring("abcda"));  //4
-    }
 }
