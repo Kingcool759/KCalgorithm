@@ -83,6 +83,38 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/leetcode/leetcode/editor/cn/[剑指 Offer 32 - III]从上到下打印二叉树 III.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/leetcode/leetcode/editor/cn/[剑指 Offer 32 - III]从上到下打印二叉树 III.java" />
+              <option name="questionId" value="100314" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/leetcode/leetcode/editor/cn/[剑指 Offer 32 - II]从上到下打印二叉树 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/leetcode/leetcode/editor/cn/[剑指 Offer 32 - II]从上到下打印二叉树 II.java" />
+              <option name="questionId" value="100312" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/leetcode/leetcode/editor/cn/[剑指 Offer 32 - I]从上到下打印二叉树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/leetcode/leetcode/editor/cn/[剑指 Offer 32 - I]从上到下打印二叉树.java" />
+              <option name="questionId" value="100311" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/leetcode/leetcode/editor/cn/[剑指 Offer 51]数组中的逆序对.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/leetcode/leetcode/editor/cn/[剑指 Offer 51]数组中的逆序对.java" />
+              <option name="questionId" value="100318" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
