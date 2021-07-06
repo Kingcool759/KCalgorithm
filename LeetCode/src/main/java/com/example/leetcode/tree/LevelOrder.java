@@ -36,7 +36,7 @@ public class LevelOrder {
     /**
      * 从上到下按层打印二叉树，同一层的节点按从左到右的顺序打印，每一层打印到一行。
      * @param root
-     * @return 二维数组
+     * @return 二维数组 （BFS）
      */
     public List<List<Integer>> levelOrder2(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
