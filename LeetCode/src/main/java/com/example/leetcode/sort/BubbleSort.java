@@ -6,7 +6,7 @@ package com.example.leetcode.sort;
  * @describe 手写冒泡排序
  */
 public class BubbleSort {
-    //冒泡排序
+    //冒泡排序--时间复杂度——O(n*2fgx vb/]['[''polkm )
     //思路：重复走访待排序序列，挨个比较相邻两个元素，如果顺序有错(A>B)就交换两者的顺序(A<B)。
     public int[] bubbleSort(int[] arr) {
         int temp = 0;
