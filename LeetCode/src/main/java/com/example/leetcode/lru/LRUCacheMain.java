@@ -1,4 +1,4 @@
-package com.example.leetcode;
+package com.example.leetcode.lru;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

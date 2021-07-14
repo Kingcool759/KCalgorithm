@@ -1,4 +1,4 @@
-package com.example.leetcode;
+package com.example.leetcode.hash;
 
 /**
  * @data on 3/29/21 10:52 PM
