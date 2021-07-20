@@ -9,7 +9,10 @@ public class SolutionTest {
     public static void main(String[] args){
 //        Fibonacci f = new Fibonacci();
 //        System.out.println(f.fib(3));
-        UglyNumber u = new UglyNumber();
-        System.out.println(u.isUgly(8));
+//        UglyNumber u = new UglyNumber();
+//        System.out.println(u.isUgly(8));
+
+        Rabits r = new Rabits();
+        System.out.println(r.findRabitsNums(4));
     }
 }

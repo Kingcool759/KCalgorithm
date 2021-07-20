@@ -6,7 +6,7 @@ package com.example.leetcode.array;
  * @describe
  */
 public class SolutionTest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //        TwoSum ts = new TwoSum();
 //        int[] nums = new int[]{1,2,3,4,3};
 //        int[] res = ts.twoSum(nums,7);
@@ -15,6 +15,6 @@ public class SolutionTest {
 //        }
         int[][] ta = {};
         TowArray towArray = new TowArray();
-        System.out.println(towArray.findNumberIn2DArray(ta,7));
+        System.out.println(towArray.findNumberIn2DArray(ta, 7));
     }
 }
