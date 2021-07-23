@@ -12,7 +12,7 @@ public class ReplaceSpace {
         int size = 0;
         for (int i = 0; i < length; i++) {
             char c = s.charAt(i);
-            if (c == ' ') {
+            if (c == ' ') {  //'空格'
                 array[size++] = '%';
                 array[size++] = '2';
                 array[size++] = '0';
