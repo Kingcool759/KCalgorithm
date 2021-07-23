@@ -11,7 +11,9 @@ public class SolutionTest {
     public static void main(String[] args){
 //        LongestSubString lss = new LongestSubString();
 //        System.out.println(lss.lengthOfLongestSubstring("abcda"));  //4
-        AllSort as = new AllSort();
-        System.out.println(Arrays.toString(as.permutation("abc")));
+//        AllSort as = new AllSort();
+//        System.out.println(Arrays.toString(as.permutation("abc")));
+        ReplaceSpace rs  = new ReplaceSpace();
+        System.out.println(rs.replaceSpace("   "));
     }
 }
